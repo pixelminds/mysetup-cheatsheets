@@ -1,0 +1,55 @@
+surf browser cheatsheet
+
+options
+-b 	disable scrollbars
+-B 	enable scrollbars
+-d	disable disk cache
+-D
+-f	disable fullscreen (use windowed mode)
+-F
+-g	disable geolocation
+-G
+-i	disable images
+-I
+-s	disable javascript
+-S
+-z 80	specify zoomlevel
+
+key binding
+^ h	back in history
+^ L	forward in history
+^ j	scroll down
+^ k	scroll up
+esc	stop loading
+^ b	back one page
+^ spc	down one page
+^ u	scroll left
+^ i	scroll right
+^ + 	zoom in (also ^ K)
+^ -	zoom out (also ^ J)
+^ Q	reset zoom
+^ /	search
+^ n	next search result
+^ N
+^ g	URL bar (requires dmenu)
+^ p	load URI from selection
+^ P	print
+^ r 	reload
+^ R 	reload w/o cache
+^ y	yank URI
+^ B	toggle scroll bars
+^ I	toggle image auto-load
+^ S	toggle javascript execution
+F11 	toggle fullscreen
+^ A	toggle cookie policies (no reload)
+
+Indicators
+A	All cookies acceptes
+a	No cookies
+@	All escept third parties
+g G	Geolocation
+d D	Disk cache
+i I	Images
+s S	Scripts
+m M	styles
+

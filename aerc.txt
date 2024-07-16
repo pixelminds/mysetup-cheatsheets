@@ -1,0 +1,36 @@
+AERC cheatsheet
+
+^p	prev tab
+^n	next tab
+k/j	scroll msg
+^u	scroll up 1/2 page
+^d	scroll down 1/2 page
+g/G	first / last email
+K/J	switch folders (sidebar)
+
+ent	open email
+q	quit tab (close)
+rr	reply all
+rq	reply & quote
+Rr/Rq	reply sender / quote
+
+^t	terminal (spawn in new tab)
+$/!	command in new terminal tab	
+|	pipe email into command in new terminal tab
+D	Delete
+P	Keep
+A	Archive
+
+Composing email
+------------------------
+C	Compose email
+tab	next field
+^j/^k	next / prev field
+close vim to send or mark pending
+
+Alternatives explored
+------------------------
+pine (1992) > alpine
+mutt (1995)
+sup (2006) > notmuch
+aerc (2020!)

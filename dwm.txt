@@ -1,0 +1,66 @@
+dwm cheatsheet
+
+Config $ build
+-----------------
+~/dwm/config.h
+~/dwm/
+  $ make
+  # make clean install
+
+Basic
+=====
+
+Sh+M [Enter]   - launch terminal.
+
+M [b]               - show/hide bar.
+M [p]               - dmenu for running programs 
+M [Enter]           - push acive window from stack to master, or pulls last used window from stack onto master.
+
+[Mod] + [j / k]         - focus on next/previous window in current tag.
+[Mod] + [h / l]         - increases / decreases master size.
+
+Navigation
+==========
+
+M [2]               - moves your focus to tag 2.
+Sh+M [2]       - move active window to the 2 tag.
+
+[Mod] + [i / d]         - increases / decreases number of windows on master
+[Mod] + [, / .]         - move focus between screens (multi monitor setup)
+Sh+M [, / .]   - move active window to different screen.
+
+M [0]               - view all windows on screen.
+Sh+M [0]       - make focused window appear on all tags.
+Sh+M [c]       - kill active window.
+Sh+M [q]       - quit dwm cleanly.
+
+Layout
+======
+
+M [t]               - tiled mode. []=
+M [f]               - floating mode. ><>
+M [m]               - monocle mode. [M] (single window fullscreen)
+
+Floating
+========
+
+M [R M B]           - to resize the floating window.
+M [L M B]           - to move the floating window around.
+M [Space]           - toggles to the previous layout mode.
+M Sh+[Space]   - to make an individual window float.
+M [M M B]           - to make an individual window un-float.
+
+source: Cheatography
+M od + Ctrl + [2] : Add tag [2] to the current view
+M od + Shft + [2] : Apply tag [2] to the current window
+M od + Shft + 0 : Apply all tags from 1 to 9 to the current window
+	  	
+Credits
+--------
+By Ansel R. Garbe 2006
+
+Alternatives explored
+------------------------
+Herbstluft
+i3
+

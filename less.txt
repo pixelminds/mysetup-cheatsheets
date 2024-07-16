@@ -1,0 +1,17 @@
+LESS cheatsheet
+
+hjkl	navigate
+f/d	forward / downwards
+b/u	back / upwards
+left/right
+F	go to end and load more
+mq	mark Q bookmark
+'q	go to Q bookmark
+g/G	
+/	Search
+/!	Inverse search
+/*	Multifile search
+
+Info
+------
+Mark Nudelman 1984

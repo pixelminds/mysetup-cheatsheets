@@ -1,0 +1,124 @@
+ranger cheatsheet
+src: GitHub / Archwiki [1]
+
+General
+---------------------------------
+ranger 	Start Ranger
+q 	Quit Ranger
+R 	Reload current directory
+? 	Ranger Manpages / Shortcuts
+
+Movement
+---------------------------------
+k 	up
+j 	down
+h 	parent directory
+l 	subdirectory
+[/]	prev / next sibling directory (same parent)
+gg 	go to top of list
+G 	go t bottom of list
+  gh	go home
+J 	half page down
+K 	half page up
+H 	History Back
+L 	History Forward
+~ 	Toggle view multicolumn
+
+File Operations
+---------------------------------
+<Space>	Toggle select file/s
+v	Invert selection
+V	Visual mode
+:mark REGEX	Mark by regex
+<Enter> Open
+r 	open file with
+z 	toggle settings - menu
+o 	Order - change sort order
+zh 	toggle hidden files
+C-h	toggle hidden files
+M	line mode (file details)
+cw 	change word / rename current file
+:rename
+a/A 	change word, appending to name / appending to extension 
+:bulkrename
+yy 	yank / copy
+  ya	yank add to buffer (copy)
+  uy	uncopy (remove from buffer)
+  yr	yank remove from buffer
+  ygg	copy all to beginning
+  yG	copy all to end
+  yd	yank dir
+  yn	yank name
+  yp	yank path
+dd 	delete (cut)
+  da	delete add to buffer (cut)
+  ud	uncut (remove from buffer)
+pp 	paste
+  po	paste and override
+  pP	paste queue
+  pO	paste queue override
+  pl	paste link rel
+  pL	paste link abs
+/ 	search for files :search
+i	prewiew
+n 	next match
+N 	prev match
+:flat	see n levels in one view
+<delete> 	Delete
+:mkdir	new dir
+:touch	new file
+
+Commands
+---------------------------------
+: 	Execute Range Command
+! 	Execute Shell Command
+chmod 	Change file Permissions
+du 	Disk Usage Current Directory
+S 	Run the terminal in your current ranger window (exit to go back to ranger)
+
+Tabs
+---------------------------------
+C-n 	Create new tab
+gn	Create new tab
+tab 	Next tab
+gt	Next tab
+C-w 	Close current tab
+shift + tab 	Previous tab
+alt + [n] 	goto / create [n] tab
+
+File substituting
+---------------------------------
+%f 	Substitute highlighted file
+%d 	Substitute current directory
+%s 	Substitute currently selected files
+%t 	Substitute currently tagged files
+
+Example for substitution
+:bulkrename %s
+
+Markers / tags
+---------------------------------
+m  + <letter> 	Create Marker
+um  + <letter> 	Undo / Delete Marker
+'  + <letter> 	Go to Marker
+''		toggle last 2 dirs
+t 	        tag a file with an *
+t"<any> 	tag a file with your desired mark
+:mark tag
+:unmark tag
+ut	untag
+
+Find / filtering
+-------------------------------
+f	find first occurrence starting with letter
+:filter	filter out grep
+zf	shortcut for :filter
+
+Alternatives explored
+--------------------------------
+ranger
+lf (go clone)
+vifm
+mc
+nnn (search & filter)
+krusader (kde)

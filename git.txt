@@ -1,0 +1,54 @@
+GIT cheatsheet
+
+Basic usage
+git --version
+
+Start new repository
+git init
+git add .
+git add --all
+git add -A
+git commit -m "message"
+git commit -a (add all before)
+
+New branch
+git checkout -b branchname (new branch)
+git checkout branchname (move to the branch)
+git add .
+git commit -m "message"
+git push -u origin branchname (only first push)
+
+Branches
+git branch name
+git branch -m name (modify name, like master to main)
+git branch (list, with our branch marked *)
+
+Merging
+git checkout master
+  git merge branch
+git branch -d name (delete the branch after merging)
+
+Second workplace
+git clone URL
+
+Working on remote
+git remote add origin URL
+git push --set-upstream origin master
+git pull origin (like fetch + merge)
+git diff origin/master
+git push origin [branch]
+
+Config
+git config --global
+git config --local
+  user.email "email@..."
+  user.name "name"
+
+Status
+git status (which branch are we in, commits done, files tracked)
+git status --short
+git log (history)
+
+Staging environment
+
+git [command] -help

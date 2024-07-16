@@ -1,0 +1,26 @@
+CMUS cheatsheet
+
+b	next play
+z	prev play
+
+c	pause
+x	play
+v	stop
+
+shift B	next album
+shift Z	prev album
+
+left	-5 secs
+right	+5 secs
+
+Info
+------
+Timo Hirvonen 2005
+ncurses (new curses)
+
+Alternatives to be explored
+----------------------------
+pms
+siren
+vimus
+vitunes

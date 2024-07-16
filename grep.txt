@@ -1,0 +1,102 @@
+grep cheatsheet
+
+File search
+-------------------
+grep [options] pattern file 
+grep -i yank vim.txt
+
+-i	ignore case
+-v	invert match
+-q	silent 
+	echo $? > 1 (not found) / 0 (found)
+-w	whole word
+-x	whole line
+-o	only matching, hides the rest of text
+-E	extended (more than one word) "yank|put"
+-e	multiple patterns, write -e before each pattern
+-c	count
+-n	show line numbers
+-m[n]	max count
+-A [n]	after context, shows n lines after
+-B [n]	before context, shows n lines before
+-C [n]	context, shows n lines before and after
+-l	list files containing pattern
+-L	list files not containing pattern
+|	pipe to a pager or another program
+	grep yank vim.txt | less
+	ls -l | grep yank | ws -l
+
+Recursive search
+--------------------
+grep -r [options] pattern path
+grep -r -i yank .
+
+-r	recursive
+-R	recursive including symlinks
+
+
+GREP in vim
+Vim (source learnbyexample.gitbooks.io)
+-----------------------
+Substitute (replace)
+use / # ^ $ as separator
+
+Pattern syntax
+--------------------
+Atoms
+^	line start
+$	line end
+^$	empty line
+.	any character
+
+Qualifiers
+*	greedy match (0 or more)
+\+	greedy match (1 or more)
+\?	match preceding (0 or 1)
+\=
+\{n}	repetition count
+
+Classes
+[abc]	any char within brackets
+[^abc]	any char but those within brackets
+<word>	literal, whole word
+\s	whitescape chars (spaces or tabs) 
+\n	new line
+\a	alphabetical [a-zA-Z]
+\A	non-alphabetical [^a-zA-Z]
+\l	lowercase alphabets [a-z] \L
+\u	uppercase alphabets [A-Z] \U
+\d	digit char [0-9] \D
+\w	alphanumeric or underscore [a-zA-Z0-9_] \W
+\t	tab char (replacestring)
+\r	newline (replacestring)
+
+Separators
+\|	two or more patterns
+\(pattern\)	optional parts in parentheses
+  \hand\(y\|ful\) = handy or handful
+
+Modifiers
+\v	very magic - no need for \
+\V	literal (exact sequence)
+\c	case insensitive
+\C	case sensitive
+\%V	only inside visually selected
+
+Vim flags (can be combined)
+----------------------------
+g	global, all occurrences
+c	ask for confirmation
+i	ignore case
+I	don't ignore case
+
+Samples
+-------------
+vim\s\+$	vim and trailing space
+:s/vim/editor	one occurence in current line
+:%s/vim/editor/g	all occurrences
+
+Credits and info
+----------------
+GREP = global regular expression search
+Ken Thompson using regular expressions from ed (ee-dee)

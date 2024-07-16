@@ -1,0 +1,37 @@
+irssi
+
+/j join
+/c clear
+/wi whois
+/pa part
+/m msg private message
+/q query userX message
+/close
+
+/network
+/connect liberachat
+/set nick pixelmind
+/j #irssi
+
+by Timo Sirainen 1999
+
+Alternatives explored
+-----------------------
+weechat cheatsheet
+
+/server add libera irc.libera.chat/6697 -ssl
+/connect libera
+/j join #vim
+/part message
+/close
+/c clear
+/q query user
+/disconnect
+
+/set irc.server.libera.username "pixelmind"
+/set irc.server.libera.realname "lluc"
+
+/window splitv 33
+/window merge
+
+

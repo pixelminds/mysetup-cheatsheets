@@ -1,0 +1,12 @@
+Zathura cheatsheet
+
+f	show links
+:bmark	bookmark
+:blist
+:bdelete
+m #	quickmark
+" #	go to quickmark
+
+Alternatives explored
+---------------------
+apviv
