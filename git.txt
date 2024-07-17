@@ -1,15 +1,17 @@
 GIT cheatsheet
-
+--------------------
 Basic usage
 git --version
 
+stash | workspace | staging_index | local repository | remote repository
+
 Start new repository
-git init
-git add .
+git init	starts new project from workspace
+git add .	copy to staging from workspace
 git add --all
 git add -A
-git commit -m "message"
-git commit -a (add all before)
+git commit -m "message"		copy to local rep from staging
+git commit -a (add all before)	add + commit
 
 New branch
 git checkout -b branchname (new branch)
@@ -22,6 +24,7 @@ Branches
 git branch name
 git branch -m name (modify name, like master to main)
 git branch (list, with our branch marked *)
+git clone repository branchname		starts new workspace from project
 
 Merging
 git checkout master
@@ -52,3 +55,58 @@ git log (history)
 Staging environment
 
 git [command] -help
+
+Github CLI (gh)
+----------------------
+CORE
+gh auth login
+gh auth login --with-token < mytoken.txt
+gh auth login --hostname hostname
+gh auth token --hostname hostname --user username
+gh auth logout --hostname hostname --user username	remove authentication
+gh auth refresh
+gh auth setup-git	use gh cli as credential helper
+gh auth status
+gh auth switch
+
+gh browse	open repository in browser
+
+gh codespace
+
+gh gist
+
+gh issue
+
+gh org
+
+gh pr
+
+gh project
+
+gh release
+
+gh repo clone user/repo
+
+ACTIONS
+gh cache
+
+gh run
+
+gh workflow
+
+MORE
+gh alias
+gh api
+gh attestation
+gh completion
+gh config
+gh extension
+gh gpg-key
+gh label
+gh ruleset
+gh search
+gh secret
+gh ssh-key
+gh status
+gh variable
+
