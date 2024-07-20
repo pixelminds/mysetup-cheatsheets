@@ -72,20 +72,27 @@ gh auth switch
 gh browse	open repository in browser
 
 gh codespace
-
+  gh codespace create, list, code...
 gh gist
-
+  gh gist create, list, clone...
 gh issue
-
-gh org
-
-gh pr
+  gh issue create, list, status...
+gh org list
+gh pr		pull requests
+  gh pr create, list, status...
 
 gh project
-
+  gh project create, list, copy...
 gh release
+  gh release create, list, download...
 
 gh repo clone user/repo
+gh repo create
+gh repo list
+gh repo delete
+gh repo fork
+gh repo rename
+gh repo sync
 
 ACTIONS
 gh cache
