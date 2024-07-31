@@ -1,7 +1,12 @@
+PAGER
 LESS cheatsheet
 
-hjkl	navigate
-f/d	forward / downwards
+*can use number
+hjkl	navigate *
+f/spc	forward one window *
+b	back one window *
+u	upwards half window
+d	downwards half window
 b/u	back / upwards
 left/right
 F	go to end and load more
@@ -11,7 +16,22 @@ g/G
 /	Search
 /!	Inverse search
 /*	Multifile search
+?	Search backward
+&	Search full lines
+n/N	next search occurrence / backwards
+q/ZZ	quit
+h	help
+
+Options
+-----------
+-E	Quit at end-of-file
+-I	Ignore case in seraches
++150	Start at line 150
++F	Start at end and load more
+-~	turn off tildes
+-h	display help
+--	options finished, next will be a filename
 
 Info
 ------
-Mark Nudelman 1984
+Mark Nudelman, may 1985

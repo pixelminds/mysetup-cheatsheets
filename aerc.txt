@@ -13,6 +13,8 @@ q	quit tab (close)
 rr	reply all
 rq	reply & quote
 Rr/Rq	reply sender / quote
+:forward -A [<address>]		-A with Attacments
+:unsubscribe
 
 ^t	terminal (spawn in new tab)
 $/!	command in new terminal tab	
@@ -20,6 +22,13 @@ $/!	command in new terminal tab
 D	Delete
 P	Keep
 A	Archive
+:archive <scheme>	flat/year/month
+
+:search [<options>] <terms>
+:new-account [-t] 	start account wizard [temporary account]
+:ct [+|-]<index>	change-tab to next|prev xth
+:ct <tab name>		change-tab to named tab
+:eml [<path>]		open eml file and preview
 
 Composing email
 ------------------------
@@ -27,6 +36,8 @@ C	Compose email
 tab	next field
 ^j/^k	next / prev field
 close vim to send or mark pending
+:attach <path>
+:cc|bcc <addresses>
 
 Alternatives explored
 ------------------------

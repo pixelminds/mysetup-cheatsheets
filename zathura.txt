@@ -1,11 +1,92 @@
 Zathura cheatsheet
+source man.cx
 
-f	show links
-:bmark	bookmark
-:blist
-:bdelete
-m #	quickmark
-" #	go to quickmark
+General
+-----------
+J, PgDn 	Go to the next page
+K, PgUp		Go to the previous page
+h, k, j, l	Scroll to the left, down, up or right direction
+^d, ^u		Scroll a half page down, up
+^f, space	Scroll a full page forward (down)
+^b, S-space	Scroll a full page backwards (up)
+gg, G, nG 	Goto to the first, the last or to the nth page
+P         	Snaps to the current page
+H, L      	Go to top or bottom of the current page
+^c, Escape 	Abort
+a, s      	Adjust window in best-fit or width mode
+/, ?      	Search for text
+n, N      	Search for the next or previous result
+o, O      	Open document
+
+
+:         	Enter command
+r         	Rotate by 90 degrees
+^r        	Recolor (grayscale and invert colors)
+R         	Reload document
+d         	Toggle dual page view
+D         	Cycle opening column in dual page view
+Tab       	Show index and switch to Index mode
+F5        	Switch to presentation mode
+F11       	Switch to fullscreen mode
+^m        	Toggle inputbar
+^n        	Toggle statusbar
++, -, = 	Zoom in, out or to the original size
+n=        	Zoom to size n
+o		Open document (shortcut for :open)
+q         	Quit
+
+Quickmarks
+----------------------
+mX        	Set a quickmark to a letter or number X
+'X        	Goto quickmark saved at letter or number X
+
+Links
+------------------------
+f         	Follow links
+F         	Display link target
+c         	Copy link target into the clipboard
+
+Fullscreen mode
+-------------------
+J, K      	Go to the next or previous page
+space		Scroll a full page down 
+<S-space> 	Scroll a full page up
+gg, G, nG 	Goto to the first, the last or to the nth page
+^c, Escape 	Abort
+F11      	Switch to normal mode
++, -, = 	Zoom in, out or to the original size
+n=        	Zoom to size n
+q         	Quit
+
+Presentation mode
+------------------------
+space		Scroll a full page down 
+<S-space> 	Scroll a full page up
+^c, Escape 	Abort
+F5        	Switch to normal mode
+q         	Quit
+
+Index mode
+---------------------
+Connot create index entries
+Tab       	Show index and switch to Index mode
+k, j      	Move to upper or lower entry
+l         	Expand entry
+L         	Expand all entries
+h         	Collapse entry
+H         	Collapse all entries
+space, Return 	Select and open entry
+
+Commands
+------------------------------
+:bmark		bookmark
+:blist		list bookmarks
+:blist [bmark]	go to bookmark
+:bdelete	delete bookmark
+:info		document info
+:open/o
+:print
+:close
 
 Alternatives explored
 ---------------------
