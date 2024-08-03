@@ -1,5 +1,8 @@
 AERC cheatsheet
+source archlinux manpages
 
+Navigation
+----------------
 ^p	prev tab
 ^n	next tab
 k/j	scroll msg
@@ -7,7 +10,11 @@ k/j	scroll msg
 ^d	scroll down 1/2 page
 g/G	first / last email
 K/J	switch folders (sidebar)
+:ct [+|-]<index>	change-tab to next|prev xth
+:ct <tab name>		change-tab to named tab
 
+Messages
+--------------
 ent	open email
 q	quit tab (close)
 rr	reply all
@@ -15,20 +22,21 @@ rq	reply & quote
 Rr/Rq	reply sender / quote
 :forward -A [<address>]		-A with Attacments
 :unsubscribe
-
-^t	terminal (spawn in new tab)
-$/!	command in new terminal tab	
-|	pipe email into command in new terminal tab
 D	Delete
 P	Keep
 A	Archive
 :archive <scheme>	flat/year/month
-
-:search [<options>] <terms>
-:new-account [-t] 	start account wizard [temporary account]
-:ct [+|-]<index>	change-tab to next|prev xth
-:ct <tab name>		change-tab to named tab
 :eml [<path>]		open eml file and preview
+:read
+:unread
+:flag
+:bounce :resend
+:recover	resume postponed message
+:search
+:filter (hides other)
+:mark -a	mark all in folder
+:unmark -a
+:delete
 
 Composing email
 ------------------------
@@ -38,6 +46,17 @@ tab	next field
 close vim to send or mark pending
 :attach <path>
 :cc|bcc <addresses>
+
+Shell
+-----------
+^t	terminal (spawn in new tab)
+$/!	command in new terminal tab	
+|	pipe email into command in new terminal tab
+:search [<options>] <terms>
+
+Accounts
+---------------------
+:new-account [-t] 	start account wizard [temporary account]
 
 Alternatives explored
 ------------------------

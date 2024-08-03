@@ -3,7 +3,7 @@ vim cheatsheet
 source: https://vim.rtorr.com/
 	phoenixNAP global services
 
-    Global
+Global
 ----------------
 :h[elp] keyword - open help for keyword
 :sav[eas] file - save file as
@@ -11,7 +11,7 @@ source: https://vim.rtorr.com/
 :ter[minal] - open a terminal window
 K - open man page for word under the cursor
 
-    Exiting
+Exiting
 -------------------------
 :w - write (save) the file, but don't exit
 :w !sudo tee % - write out the current file using sudo
@@ -20,14 +20,13 @@ K - open man page for word under the cursor
 :q! or ZQ - quit and throw away unsaved changes
 :wqa - write (save) and quit on all tabs
 
-    Cursor movement
+Cursor movement
 --------------------------
+Can use with multiplier
 h - move cursor left
 j - move cursor down
 k - move cursor up
 l - move cursor right
-
-Can use with multiplier
 gj - move cursor down (multi-line text)
 gk - move cursor up (multi-line text)
 H - HIGH move to top of screen
@@ -69,7 +68,7 @@ zz - center linw on screen
 zt - position line on top of the screen
 zb - position line on bottom of the screen
 
-    Insert mode - inserting/appending text
+Insert mode - inserting/appending text
 ----------------------------------------------
 i - insert before the cursor
 I - insert at the beginning of the line
@@ -78,21 +77,18 @@ A - insert (append) at the end of the line
 o - append (open) a new line below the current line
 O - append (open) a new line above the current line
 ea - insert (append) at the end of the word
-Ctrl + h - delete the character before the cursor during insert mode
-Ctrl + w - delete word before the cursor during insert mode
-Ctrl + j - add a line break at the cursor position during insert mode
-Ctrl + t - indent (move right) line one shiftwidth during insert mode
+Ctrl + h - delete character before the cursor during insert mode
+Ctrl + w - delete Word before the cursor during insert mode
+Ctrl + j - = return / add a line break at the cursor position during insert mode
+Ctrl + t - tab / indent (move right) line one shiftwidth during insert mode
 Ctrl + d - de-indent (move left) line one shiftwidth during insert mode
-Ctrl + n - insert (auto-complete) next match before the cursor
-    during insert mode
-Ctrl + p - insert (auto-complete) previous match before the cursor
-    during insert mode
+Ctrl + n - insert (auto-complete) next match before the cursor during insert mode
+Ctrl + p - insert (auto-complete) previous match before the cursor during insert mode
 Ctrl + rx - insert the contents of register x
-Ctrl + ox - Temporarily enter normal mode to issue one normal-mode
-    command x.
+Ctrl + ox - Temporarily enter normal mode to issue one normal-mode command x.
 Esc or ^c - exit insert mode
 
-    Editing
+Editing
 ---------------------
 r - replace a single character.
 R - replace more than one character, until ESC is pressed.
@@ -363,7 +359,7 @@ difftool.
  * :colo - show current scheme
  * :colo [name] - use colorscheme
 
-Spell check (from v.7)
+Spell check (from v.7) 
  * :set spell spelllang=en_us
  * :setlocal spell spelllang=en_us to check local buffer only
  * :set nospell to turn spelling off
