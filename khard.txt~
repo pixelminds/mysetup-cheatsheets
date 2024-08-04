@@ -1,0 +1,19 @@
+khard cheatsheet
+contact management
+--------------------
+
+khard [-h] [-v] subcommand
+subcommands 
+	new	create new contact - vcard format (add)
+	ls	list existing contacts (list)
+	bdays	list birthdays sorted by date (birthdays)
+	show	detailed information about one contact from a list (details)
+	email	list email addresses
+	phone	list phone numbers
+	post	list postal addresses (postaddr, postaddress)
+	merge	merge two contacts
+	ed	edit a contact (edit, modify)
+	cp	copy a contact to another addressbook (copy)
+	mv	move a contact to another addressbook (move)
+	rm	remove a contact (remove, del, delete)
+	abooks	list addressbooks (addressbooks)

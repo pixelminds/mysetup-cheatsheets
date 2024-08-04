@@ -37,6 +37,7 @@ A	Archive
 :mark -a	mark all in folder
 :unmark -a
 :delete
+:open-link 	open a link from a list of parsed urls
 
 Composing email
 ------------------------

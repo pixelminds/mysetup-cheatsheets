@@ -7,6 +7,7 @@ irssi
 /m msg private message
 /q query userX message
 /close
+/quit
 
 /network
 /connect liberachat
