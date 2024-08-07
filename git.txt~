@@ -4,7 +4,6 @@ Basic usage
 git --version
 
 stash | workspace | staging_index | local repository | remote repository
-Need a remote repository. If Github, need to configure ssh.
 
 Start new repository
 git init	starts new project from workspace
