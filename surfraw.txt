@@ -1,0 +1,6 @@
+surfraw
+cheatsheet
+
+sr -elvi ---- list of elvi
+sr duckduckgo pattern
+sr aur package
