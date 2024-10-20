@@ -4,7 +4,8 @@ src: GitHub / Archwiki [1]
 General
 ---------------------------------
 ranger 	Start Ranger
-q 	Quit Ranger
+q 	Close tab (and quit, if last tab)
+Q	Close all tabs and quit
 R 	Reload current directory
 ? 	Ranger Manpages / Shortcuts
 
@@ -17,12 +18,12 @@ l 	subdirectory
 [/]	prev / next sibling directory (same parent)
 gg 	go to top of list
 G 	go t bottom of list
-  gh	go home
+gh	go home
 J 	half page down
 K 	half page up
 H 	History Back
 L 	History Forward
-~ 	Toggle view multicolumn
+~ 	Toggle Miller view (multicolumn)
 
 File Operations
 ---------------------------------
