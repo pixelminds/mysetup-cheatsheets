@@ -1,0 +1,172 @@
+Blender 3.0 Keyboard Shortcuts 
+
+Shortcut 	Action
+=============================
+Menu Call-Up
+-----------------------------
+N 		Numbers (object properties) sidebar
+T 		Toolbar
+Q  		Quick Favorites menu
+F3  		Function search
+Shift + spc	Transform menu (4)
+
+Pie Menus
+----------------------------
+Ctrl + Tab 	Mode Pie menu
+~  		Viewport Pie menu
+.   		Pivot Point Pie menu
+,  		Axis Orientation Pie menu
+Shift + S  	Snap Pie menu
+Z 		viewport Shading Options Pie menu
+
+Viewport
+-----------------------------
+Home 		Show all objects
+H 		Hide object
+Alt + H 	Unhide all objects
+Shift + H 	Hide all unselected objects
+Alt + Z 	Toggle X-ray
+/ 		Isolate selected object
+Numpad 0 	Camera view
+Numpad 1 	Front view
+Numpad 2 	Downward-facing view
+Numpad 3 	Side view
+Numpad 4 	Leftward-facing view
+Numpad 5 	Toggle perspective/orthographic view
+Numpad 6 	Rightward-facing view
+Numpad 7 	Top-down view
+Numpad 8 	Upward-facing view
+Numpad 9 	Opposite of current view
+Numpad .	Focus (2)
+F12		Render camera view (3)
+
+Viewport Navigation
+-----------------------------
+Middle click + drag 		Orbit view
+Shift + Middle click + drag  	Pan view
+Scroll wheel; 
+Ctrl + Middle click + drag 	Zoom view
+Shift + ~ + move mouse;		Fly (free pan by cursor)
+Click in Viewport to deactivate 
+
+Object Mode
+-----------------------------
+Tab 		 	Toggle between Object / Edit mode
+Shift + A 	 	Add new object / node
+X or delete		Delete (2)
+Shift + Tab  	 	Toggle snapping
+Ctrl + A  	 	Apply transformations (location/scale/rotation)
+Alt + G  	 	Clear position
+Alt + R  	 	Clear rotation
+Alt + R  	 	Clear scale
+Ctrl + J  		Join selected objects
+Ctrl + 1, 2, 3, 4, etc 	Add subdivision level
+Shift + C  	 	Reset 3D cursor to center
+Ctrl + M then x/y/z	Mirror (2)
+Ctrl + P		Set parent (last selected) (2)
+Alt + P			Clear parent (2)
+Ctrl + L		Copy attributes to new objects (2)
+Alt + B			Mask view to region / clear mask (2)
+Ctrl + Numpad 0		Set as active camera (2)
+Ctrl + Alt + Numpad 0	Move active camera to view (2)
+
+Object selection (2)
+-----------------------------
+Left mouse		Select
+A			Select all
+Alt + left mouse	Select one (from several operlapped)
+Alt + A; AA		Deselect all
+B; Drag left		Box select (marquee)
+C			Circle select
+Ctrl + right mouse	Lasso select
+Ctrl + I		Invert selection
+Shift + L		Select linked
+SHift + G		Select similar
+
+Object Manipulation
+-----------------------------
+G  	   			Glide (Move) object or geometry
+S  	   			Scale object or geometry
+R  	   			Rotate object or geometry
+RR  	   			Rotate with trackball
+  G, S, or R + X, Y, or Z  	Action along axis
+  G, S, or R + XX, YY, or ZZ  	Action along local axis
+  Hold Shift while transforming Fine tune control
+  Hold Ctrl while transforming 	Adjust value by increment
+Shift + D    			Duplicate object
+Alt + D    			Duplicate linked objects
+M     				Add active object to new collection
+H				Hide (2)
+Alt + H				Unhide all (2)
+Shift + H			Hide all except selected (2)
+
+Edit Mode
+-----------------------------
+Tab	 		Toggle between Object / Edit mode
+1  	   		Vertex mode
+2  	   		Edge mode
+3  	   		Face mode
+P  	   		Create separate object out of selection
+M  	   		Merge selection
+GG  	   		Vertex and edge slide
+E  	   		Extrude geometry
+F  	   		Fill face
+Ctrl + R    		Loop cut
+  then Scroll wheel	Add loop cut divisions
+  Left click   		Lock in loop cut
+I     			Add inset faces to selection
+Ctrl + B    		Add bevel to selection
+Ctrl + Shift + B   	Add vertex bevel to selection
+K     			Knife
+Enter    		Lock in knife
+Shift + W    		Bend
+Y     			Split geometry
+V     			Rip geometry
+Alt + V    		Fill rip
+Ctrl + L    		Select connected geometry
+Alt + Left click   	Select edge loop
+O     			Toggle proportional editing
+Shift + O    		Toggle through proportional editing falloff profiles
+Shift + N    		Recalculate normals
+Ctrl + Shift + N   	Invert normals
+Esc   			Cancel transform in progress
+
+Sculpt Mode
+-----------------------------
+Shift + Spacebar 	Select brush hotkey
+E  	 		Select stroke protocol
+F  	 		Brush size
+Shift + F  	 	Brush strength
+Ctrl + F  	 	Brush angle
+Shift + Left click	Toggle brush positive or negative
+
+UVs and UV Unwrapping
+-----------------------------
+Ctrl + E 	Mark seam
+U 		Unwrap mesh
+
+UV Editor
+-----------------------------
+Ctrl + L; 		Select island
+L to select object under cursor 	
+P 			Pin
+Alt + P 		Unpin
+Shift + P 		Select pinned
+V 			Stitch
+Shift + W 		Weld
+
+Nodes
+-----------------------------
+Shift + A 		Create new node
+Ctrl + R click + Drag 	Sever connection
+F  			Connect selected
+M  			Mute selected
+Ctrl + G  		Group selected
+Ctrl + Alt + G  	Ungroup selected 
+
+Source
+-----------------------------
+(1)	by Emma Garofalo via Make Use Of (https://www.makeuseof.com/blender-3-keyboard-shortcuts/)
+(2)	by Imacneil via Cheatography (https://cheatography.com/lmacneil/cheat-sheets/blender-keyboard-shortcuts/) 
+(3)	via Learn WebGL (http://learnwebgl.brown37.net/modelers/documents/Blender_Hotkeys_Cheatsheet.pdf)
+(4)	from Blender context help
