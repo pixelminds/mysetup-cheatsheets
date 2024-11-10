@@ -68,7 +68,7 @@ g	top
 G	bottom
 
 Setting toggles
-m	aaa_mode (all/artist/album)
+m	aaa_mode
 C	continue
 M	play_lib
 o	play_sorted
